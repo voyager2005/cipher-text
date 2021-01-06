@@ -12,3 +12,5 @@
 - [ ] add multiple layers of encoding to the string rather than only 1
 
 ###### hoping to complete the above during march - july 2021
+
+![image3 1](https://user-images.githubusercontent.com/76808676/103723848-04bedb80-4ff9-11eb-8bc4-76dc48320504.png)

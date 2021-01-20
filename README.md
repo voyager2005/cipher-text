@@ -17,8 +17,9 @@ what is the time?
 <br />what is the time?
 
 ## fused?
-So I created [fused](fused) that has both [endcode](encode) and [decode](deocde) classes **fused** together.
+So I created [fused] that has both [endcode] and [decode] classes **fused** together.
 <br />![image6 4](https://user-images.githubusercontent.com/76808676/105202119-a6047080-5b67-11eb-822f-e4b950fe05f8.png)
 
 [encode]: https://github.com/voyager2005/encode-decode/blob/main/encode.java
 [decode]: https://github.com/voyager2005/encode-decode/blob/main/decode.java
+[fused]: https://github.com/voyager2005/encode-decode/blob/main/fused.java

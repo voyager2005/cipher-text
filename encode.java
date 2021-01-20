@@ -20,7 +20,12 @@ public class encode
         {
             char ch = s.charAt(i);
             int temp = ch + 3 ; 
-            if( ch == ' ')
+            
+            if(ch == '?')
+            {
+                temp = 63; 
+            }
+            else if( ch == ' ')
             {
                 temp = 32 ; 
             }
@@ -48,8 +53,18 @@ public class encode
             }
             result = result +(char)temp;
         }
+        
+        //declaration 
+        String reverse = "" ; 
+        
+        // reversng the code
+        for(int i = 0; i < result.length(); i++)
+        {
+            char ch = result.charAt(i); 
+            reverse = ch + reverse; 
+        }
          
         //displat statement 
-        System.out.println(result);
+        System.out.println(reverse);
     }
 }

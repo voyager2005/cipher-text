@@ -15,14 +15,29 @@ public class decode
         // declaration and initialisation 
         String r = "" ; 
         
+        //declaration 
+        String reverse = "" ; 
         
-        //loop to hack the code 
+        // reversng the code
+        for(int i = 0; i < s.length(); i++)
+        {
+            char ch = s.charAt(i); 
+            reverse = ch + reverse; 
+        }
+        
+        s = reverse; 
+        
         //loop to encode the character
         for(int i = 0  ; i < s.length() ; i++ )
         {
             char ch = s.charAt(i);
             int temp = ch - 3 ; 
-            if(ch == ' ')
+            
+            if(ch == '?')
+            {
+                temp = 63; 
+            }
+            else if(ch == ' ')
             {
                 temp = 32 ; 
             }

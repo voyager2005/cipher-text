@@ -9,11 +9,11 @@ This is just for fun when you and your best friend are communicating in an encod
 <br />
 ### For example:
 #### [encode]: 
-<br />what is the time?
+what is the time?
 <br />?hplw hkw vl wdkz
 <br />
 #### [decode]:
-<br />?hplw hkw vl wdkz
+?hplw hkw vl wdkz
 <br />what is the time?
 
 [encode]: https://github.com/voyager2005/encode-decode/blob/main/encode.java
